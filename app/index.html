@@ -10,19 +10,7 @@
     <ui-view></ui-view>
 
 
-<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBWYZL8ZZu3Mz6hAGqgIQUTZ2XGuYM5kuc",
-    authDomain: "bloc-chat-f8b81.firebaseapp.com",
-    databaseURL: "https://bloc-chat-f8b81.firebaseio.com",
-    projectId: "bloc-chat-f8b81",
-    storageBucket: "bloc-chat-f8b81.appspot.com",
-    messagingSenderId: "126099548919"
-  };
-  firebase.initializeApp(config);
-</script>
+
 
       <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -54,7 +42,11 @@
     <!-- Application Files -->
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/HomeCtrl.js"></script>
-    <script src="scripts/controllers/RoomCtrl.js"></script>
+    <script src="scripts/controllers/ModalInstanceCtrl.js"></script>
     <script src="scripts/services/Room.js"></script>
+    <script src="scripts/controllers/ModalCtrl.js"></script>
+    <!-- AngularUI Bootstrap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
 </body>
 </html>
