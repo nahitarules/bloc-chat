@@ -9,10 +9,10 @@
     };
 
     return Message;
-    
+
   }
 
   angular
     .module('blocChat')
-    .factory('Message', ['$firebaseArray', Message]);
+    .factory('Message', ['$firebaseArray', '$cookies', Message]);
 })();
